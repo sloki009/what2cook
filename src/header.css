@@ -1,0 +1,133 @@
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* height: calc(100vh - 30rem);
+    min-height: 50rem;
+    max-height: 57rem; */
+    background-image: url("./images/zomato_wallpaper.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header_container {
+    height: 100vh;
+    width: 100%;
+}
+
+.header_contents {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_tagline {
+    font-size: 2.0rem;
+    line-height: 1.2;
+    font-weight: 400;
+    margin: 0px;
+    margin-top: 2rem;
+}
+
+.tag_text {
+    font-size: 3rem;
+}
+
+.searchContainer {
+    width: 75%;
+    border-width: 0px;
+    margin-top: 3rem;
+}
+
+.searchbox_container {
+    border-radius: 0.8rem;
+    width: 53rem;
+    /* height: 100%; */
+    display: flex;
+    position: relative;
+}
+
+.ingredients_search_input {
+    border: none;
+    font-size: 1.4rem;
+    width: 100%;
+    border-radius: 0.8rem;
+    font-family: serif;
+}
+
+.ingredients_search_input:focus,
+.ingredient_search_btn:focus {
+    border: none;
+    outline: 0;
+}
+
+.searchicon {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 6rem;
+    margin: -1px -0.6rem -1px -1px;
+}
+
+.searchbox {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 4.0rem;
+    background: rgb(255, 255, 255);
+    border-radius: 0.8rem;
+    box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+    justify-content: space-between;
+}
+
+.ingredient_search_btn_container {
+    border-radius: 0.8rem;
+    width: 15rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ingredient_search_btn {
+    cursor: pointer;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.8rem;
+    background-color: lightgray;
+    border: none;
+}
+
+.seperator {
+    width: 0rem;
+    height: 2rem;
+    border: 0.03rem solid rgb(207, 207, 207);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.select_input__control {
+    height: 100%;
+}
+
+.select_input__control:hover {
+    border-color: none;
+}
