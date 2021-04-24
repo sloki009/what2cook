@@ -80,6 +80,16 @@ function Header() {
                   </button>
                 </div>
               </div>
+
+              <div className="ingredient_search_btn_container_res">
+                <button
+                  type="submit"
+                  className="ingredient_search_btn"
+                  // onClick={() => handleSearchClick(true)}
+                >
+                  Search
+                </button>
+              </div>
             </form>
           </div>
         </div>
